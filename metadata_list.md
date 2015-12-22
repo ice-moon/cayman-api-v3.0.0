@@ -1,5 +1,5 @@
 ### 获取元数据
-`/store/metadata/get`
+`/store/metadata/list`
 
 #### 接口说明
 获取object元数据
