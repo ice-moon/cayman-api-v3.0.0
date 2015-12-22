@@ -2,6 +2,7 @@
 
 * [简介](README.md)
 * [用户管理](user.md)
+   * 创建用户
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
