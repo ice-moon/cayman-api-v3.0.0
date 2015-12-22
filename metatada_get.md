@@ -4,9 +4,6 @@
 #### 接口说明
 获取object元数据
 
-#### 返回数据类型
-`JSON`
-
 #### HTTP请求类型
 `POST`
 
@@ -26,6 +23,9 @@ curl -XPOST http://192.168.1.100/store/metadata/get \
 -F object=testobject \
 -F key=aaa
 ```
+
+#### 返回数据类型
+`JSON`
 
 #### 返回结果
 ```json
