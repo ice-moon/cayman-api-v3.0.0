@@ -4,9 +4,6 @@
 #### 接口说明
 列举object所有元数据
 
-#### 返回数据类型
-`JSON`
-
 #### HTTP请求类型
 `POST`
 
@@ -24,6 +21,9 @@ curl -XPOST http://192.168.1.100/store/metadata/list \
 -F bucket=testbucket \
 -F object=testobject 
 ```
+
+#### 返回数据类型
+`JSON`
 
 #### 返回结果
 ```json
