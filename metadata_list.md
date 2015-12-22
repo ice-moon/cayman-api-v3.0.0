@@ -29,7 +29,11 @@ curl -XPOST http://192.168.1.100/store/metadata/list \
 ```json
 {
 	"code":	200,
-	"result":	{
+	"result":	{	
+	    "owner":	"testuser",
+		"ownbucket":	"testbucket",
+		"size":	"1024",
+		"createtime":	"1450751410360",
 		"aaa":	"bbb",
 		"aaa1":	"bbb1",
 		"aaa2":	"bbb2"
