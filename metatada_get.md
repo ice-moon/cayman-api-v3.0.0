@@ -18,6 +18,15 @@
 |object|string|对象名|
 |key|string|元数据键|
 
+#### 使用示例
+```sh
+curl -XPOST http://192.168.1.100/store/metadata/get \
+-F username=testuser \
+-F bucket=testbucket \
+-F object=testobject \
+-F key=aaa
+```
+
 #### 返回结果
 ```json
 {
@@ -26,13 +35,4 @@
 		"aaa":	"bbb"
 	}
 }
-```
-
-#### 使用示例
-```sh
-curl -XPOST http://192.168.1.100/store/metadata/get \
--F username=testuser \
--F bucket=testbucket \
--F object=testobject \
--F key=aaa
 ```
