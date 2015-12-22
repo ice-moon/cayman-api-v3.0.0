@@ -1,10 +1,10 @@
-### 获取元数据
+### 获取所有元数据
 `/store/metadata/list`
 
 #### 接口说明
-获取object元数据
+列举object所有元数据
 
-#### 返回类型格式
+#### 返回数据类型
 `JSON`
 
 #### HTTP请求类型
@@ -16,15 +16,13 @@
 |username|string|用户名|
 |bucket|string|存储桶名|
 |object|string|对象名|
-|key|string|元数据键|
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/get \
+curl -XPOST http://192.168.1.100/store/metadata/list \
 -F username=testuser \
 -F bucket=testbucket \
--F object=testobject \
--F key=aaa
+-F object=testobject 
 ```
 
 #### 返回结果
@@ -32,7 +30,9 @@ curl -XPOST http://192.168.1.100/store/metadata/get \
 {
 	"code":	200,
 	"result":	{
-		"aaa":	"bbb"
+		"aaa":	"bbb",
+		"aaa1":	"bbb1",
+		"aaa2":	"bbb2"
 	}
 }
 ```
