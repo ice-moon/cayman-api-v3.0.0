@@ -1,8 +1,8 @@
 ### 获取元数据
-`/store/metadata/get`
+`/store/metadata/del`
 
 #### 接口说明
-获取object元数据
+删除object元数据
 
 #### 返回类型格式
 `JSON`
@@ -20,7 +20,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/get \
+curl -XPOST http://192.168.1.100/store/metadata/del \
 -F username=testuser \
 -F bucket=testbucket \
 -F object=testobject \
@@ -30,9 +30,6 @@ curl -XPOST http://192.168.1.100/store/metadata/get \
 #### 返回结果
 ```json
 {
-	"code":	200,
-	"result":	{
-		"aaa":	"bbb"
-	}
+	"code":	200
 }
 ```
