@@ -1,5 +1,5 @@
 ### 删除元数据
-`/store/metadata/del`
+`/api/cayman/store/metadata/del`
 
 #### 接口说明
 删除object元数据
@@ -17,7 +17,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/del \
+curl -XPOST http://192.168.1.100/api/cayman/store/metadata/del \
 -F username=testuser \
 -F bucket=testbucket \
 -F object=testobject \
