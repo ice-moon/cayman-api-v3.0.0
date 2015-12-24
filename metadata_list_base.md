@@ -1,5 +1,5 @@
 ### 获取基本元数据
-`/store/metadata/list/base`
+`/api/cayman/store/metadata/list/base`
 
 #### 接口说明
 列举object基本元数据
@@ -16,7 +16,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/list/base \
+curl -XPOST http://192.168.1.100/api/cayman/store/metadata/list/base \
 -F username=testuser \
 -F bucket=testbucket \
 -F object=testobject 
@@ -30,10 +30,8 @@ curl -XPOST http://192.168.1.100/store/metadata/list/base \
 {
 	"code":	200,
 	"result":	{	
-	    "owner":	"testuser",
-		"ownbucket":	"testbucket",
-		"size":	"1024",
-		"createtime":	"1450751410360"
+		"dana_objectsize":	"1024",
+		"dana_lastModified":	"1450751410360"
 	}
 }
 ```
