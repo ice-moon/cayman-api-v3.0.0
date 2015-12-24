@@ -1,5 +1,5 @@
 ### 设置元数据
-`/store/metadata/set`
+`/api/cayman/store/metadata/set`
 
 #### 接口说明
 设置object元数据
@@ -18,7 +18,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/set \
+curl -XPOST http://192.168.1.100/api/cayman/store/metadata/set \
 -F username=testuser \
 -F bucket=testbucket \
 -F object=testobject \
