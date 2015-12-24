@@ -1,5 +1,5 @@
 ### 获取自定义元数据
-`/store/metadata/list/extra`
+`/api/cayman/store/metadata/list/extra`
 
 #### 接口说明
 列举object自定义元数据
@@ -16,7 +16,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/list/extra \
+curl -XPOST http://192.168.1.100/api/cayman/store/metadata/list/extra \
 -F username=testuser \
 -F bucket=testbucket \
 -F object=testobject 
