@@ -1,5 +1,5 @@
 ### 获取元数据
-`/store/metadata/get`
+`/api/cayman/store/metadata/get`
 
 #### 接口说明
 获取object元数据
@@ -17,7 +17,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/store/metadata/get \
+curl -XPOST http://192.168.1.100/api/cayman/store/metadata/get \
 -F username=testuser \
 -F bucket=testbucket \
 -F object=testobject \
