@@ -30,8 +30,6 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/list \
 {
 	"code":	200,
 	"result":	{
-		"dana_objectsize":	"1024",
-		"dana_lastModified":	"1450751410360",
 		"aaa":	"bbb",
 		"aaa1":	"bbb1",
 		"aaa2":	"bbb2"
