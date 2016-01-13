@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "fontsettings"
+        "-fontsettings"
     ],
      "pluginsConfig": {
         "fontSettings": {
