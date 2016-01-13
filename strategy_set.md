@@ -30,7 +30,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/set \
 -F desc=testdesc \
 -F month=* \
 -F week=* \
--F value=bbb
+-F day=bbb
 ```
 
 #### 返回数据类型
