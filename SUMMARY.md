@@ -9,5 +9,5 @@
    * [删除元数据](metadata_del.md)
    * [列举所有元数据](metadata_list.md)
 * 策略归档
-   * [设置元数据](strategy_set.md)
+   * [设置策略](strategy_set.md)
 
