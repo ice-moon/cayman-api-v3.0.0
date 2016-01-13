@@ -11,5 +11,5 @@
 * 策略归档
    * [设置策略](strategy_set.md)
    * [获取策略](strategy_get.md)
-   * 列举所有策略
+   * [列举所有策略](strategy_list.md)
 
