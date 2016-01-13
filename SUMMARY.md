@@ -3,6 +3,8 @@
 * [简介](README.md)
 * [用户管理](user.md)
    * [创建用户](user_create.md)
+* [桶管理](bucket.md)
+   * [创建桶](bucket_create.md)
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
