@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+   * 策略归档
 * [用户管理](user.md)
    * [创建用户](user_create.md)
 * [元数据](metadata.md)
