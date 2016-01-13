@@ -30,7 +30,14 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/set \
 -F desc=testdesc \
 -F month=* \
 -F week=* \
--F value=bbb
+-F day=* \
+-F hour=* \
+-F minute=* \
+-F groupby=* \
+-F device=testdevice \
+-F matchrule=[{"key":"testkey","value":"testvalue","match":"="}] \
+-F ifremain=true \
+-F level=50 \
 ```
 
 #### 返回数据类型
@@ -40,6 +47,9 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/set \
 ```json
 {
     "code" : 200
+    "result":	{
+		"strategyid":	"68dbf677-fc12-46ad-984d-648a52d0ea03"
+	}
 }
 ```
 
