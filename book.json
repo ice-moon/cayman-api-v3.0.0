@@ -2,5 +2,11 @@
     "plugins": [
         "fontsettings"
     ],
-    "pluginsConfig": {}
+     "pluginsConfig": {
+        "fontSettings": {
+            "theme": "night",
+            "family": "sans",
+            "size": 2
+        }
+    }
 }
