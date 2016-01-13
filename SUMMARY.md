@@ -10,6 +10,11 @@
    * [获取元数据](metatada_get.md)
    * [删除元数据](metadata_del.md)
    * [列举所有元数据](metadata_list.md)
+* [配额](quota.md)
+   * [设置元数据](quota_set.md)
+   * [获取元数据](metatada_get.md)
+   * [删除元数据](metadata_del.md)
+   * [列举所有元数据](metadata_list.md)
 * 策略归档
    * [设置策略](strategy_set.md)
    * [获取策略](strategy_get.md)
