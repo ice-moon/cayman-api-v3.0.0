@@ -25,7 +25,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/archive/strategy/get \
+curl -XPOST http://192.168.1.100/api/cayman/archive/strategy/set \
 -F name=testname \
 -F desc=testdesc \
 -F month=* \
