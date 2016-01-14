@@ -1,4 +1,4 @@
-### 添加元数据配额
+### 获取元数据配额
 `/api/cayman/store/quota/get`
 
 #### 接口说明
