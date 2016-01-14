@@ -20,7 +20,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
+curl -XPOST http://192.168.1.100/api/cayman/archive/listfile/list \
 -F strategyid=teststrategyid \
 -F isarchived=0 \
 -F starttime=1313334344421 \
