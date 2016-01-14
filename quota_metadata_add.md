@@ -8,13 +8,12 @@
 `POST`
 
 #### 请求参数
-|参数名|参数类型|参数说明|
-|--|--|--|
-|quotaname|string|配额名|
-|bucket|string|存储桶名|
-|object|string|对象名|
-|key|string|元数据键|
-|value|string|元数据值|
+|参数名|类型|必选|说明|默认值|
+|--|--|--|--|--|
+|quotaname|string|yes|用户名||
+|matchlabel|string|yes|对象名||
+|quotamaxsize|int64|no|默认配额值|空字符串|
+|description|string|no|配额描述|空字符串|
 
 #### 使用示例
 ```sh
