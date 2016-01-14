@@ -20,7 +20,7 @@
    * [删除元数据配额](quota_metadata_del.md)
    * [修改元数据配额](quota_metadata_mod.md)
    * [列举元数据配额](quota_metadata_list.md)
-* 策略归档
+* [策略归档](archive.md)
    * [设置策略](strategy_set.md)
    * [获取策略](strategy_get.md)
    * [列举所有策略](strategy_list.md)
