@@ -1,4 +1,4 @@
-### 设置策略
+### 手动归档文件
 `/api/cayman/archive/archivebymanual`
 
 #### 接口说明
