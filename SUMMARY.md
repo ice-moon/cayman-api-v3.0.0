@@ -25,5 +25,5 @@
    * [获取策略](strategy_get.md)
    * [列举所有策略](strategy_list.md)
    * [删除策略](strategy_del.md)
-   * 手动归档文件
+   * [手动归档文件](archive_manual.md)
 
