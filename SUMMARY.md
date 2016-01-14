@@ -27,5 +27,5 @@
    * [删除策略](strategy_del.md)
    * [手动归档文件](archive_manual.md)
    * [列举文件](listfile_list.md)
-   * 手动回迁文件
+   * [手动回迁文件](restore_manual.md)
 
