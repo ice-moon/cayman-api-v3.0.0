@@ -1,4 +1,4 @@
-# 目录
+# Summary
 
 * [简介](README.md)
 * [用户管理](user.md)
@@ -24,4 +24,5 @@
    * [设置策略](strategy_set.md)
    * [获取策略](strategy_get.md)
    * [列举所有策略](strategy_list.md)
+   * 删除策略
 
