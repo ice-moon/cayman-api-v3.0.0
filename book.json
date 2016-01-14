@@ -4,7 +4,7 @@
     "description": "_",
     "extension": null,
     "isbn": null,
-    "generator": "www.datatom.com",
+    "generator": "http://www.datatom.com",
     "plugins": [
         "fontsettings"
     ],
