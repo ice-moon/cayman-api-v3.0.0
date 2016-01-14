@@ -24,5 +24,5 @@
    * [设置策略](strategy_set.md)
    * [获取策略](strategy_get.md)
    * [列举所有策略](strategy_list.md)
-   * 删除策略
+   * [删除策略](strategy_del.md)
 
