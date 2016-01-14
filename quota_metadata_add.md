@@ -30,14 +30,6 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/add \
 #### 返回结果
 ```json
 {
-        "quotaname": "videoquota", 
-        "description": "基于文件类型为视频的配额", 
-        "createtime": 1452654019, 
-        "quotamaxsize": 512000000, 
-        "currentsize": 0, 
-        "objectcount": 0, 
-        "matchlabel": {
-                "type": "video"
-        }
+    "code" : 200
 }
 ```
