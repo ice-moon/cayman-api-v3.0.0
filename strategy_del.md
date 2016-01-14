@@ -1,4 +1,4 @@
-### 设置策略
+### 删除策略
 `/api/cayman/archive/strategy/delete`
 
 #### 接口说明
