@@ -10,8 +10,8 @@
 #### 请求参数
 |参数名|参数类型|参数说明|
 |--|--|--|
-|bucket|string|桶名|
-|objid|string|文件id|
+|objectid|string|文件id|
+|bucket|string|桶命名|
 
 
 #### 使用示例
