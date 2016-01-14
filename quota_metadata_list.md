@@ -10,11 +10,11 @@
 #### 请求参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
+||||||
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/quota/get \
--F quotaname=videoquota
+curl -XPOST http://192.168.1.100/api/cayman/store/quota/list 
 ```
 
 #### 返回数据类型
@@ -23,6 +23,8 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/get \
 #### 返回结果
 ```json
 {
+  "total": 1,
+  "source": [
     "quotaname": "videoquota", 
     "description": "基于文件类型为视频的配额", 
     "createtime": 1452654019, 
@@ -32,5 +34,6 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/get \
     "matchlabel": {
         "type": "video"
     }
+  ]
 }
 ```
