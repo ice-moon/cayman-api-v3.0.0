@@ -4,6 +4,7 @@
     "description": "_",
     "extension": null,
     "isbn": null,
+    "language": "zh_CN",
     "generator": "http://www.datatom.com",
     "plugins": [
         "fontsettings"
