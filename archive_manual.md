@@ -16,7 +16,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/archive/strategy/delete \
+curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
 -F bucket=testbucket \
 -F objid=testobjid \
 ```
