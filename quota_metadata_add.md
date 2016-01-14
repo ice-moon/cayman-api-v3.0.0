@@ -12,8 +12,8 @@
 |--|--|--|--|--|
 |quotaname|string|yes|用户名||
 |matchlabel|string|yes|对象名||
-|quotamaxsize|int64|no|默认配额值|空字符串|
 |description|string|no|配额描述|空字符串|
+|quotamaxsize|int64|no|默认配额值|-1:无限制|
 
 #### 使用示例
 ```sh
