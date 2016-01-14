@@ -8,11 +8,11 @@
 `POST`
 
 #### 请求参数
-|参数名|参数类型|参数说明|
-|--|--|--|
-|username|string|用户名|
-|bucket|string|存储桶名|
-|object|string|对象名|
+|参数名|类型|必选|说明|
+|--|--|--|--|
+|username|string|yes|用户名|
+|bucket|string|yes|存储桶名|
+|object|string|yes|对象名|
 
 #### 使用示例
 ```sh
