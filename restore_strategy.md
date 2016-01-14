@@ -1,8 +1,8 @@
 ### 按策略回迁
-`/api/cayman/archive/restore/objectid`
+`/api/cayman/archive/restore/matchrule`
 
 #### 接口说明
-手动回迁文件
+按策略回迁文件
 
 #### HTTP请求类型
 `POST`
@@ -10,15 +10,13 @@
 #### 请求参数
 |参数名|参数类型|参数说明|
 |--|--|--|
-|objectid|string|文件id|
-|bucket|string|桶命名|
+|storagyid|string|策略id|
 
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
--F bucket=testbucket \
--F objid=testobjid \
+curl -XPOST http://192.168.1.100/api/cayman/archive/restore/matchrule \
+-F storagyid=teststrategyid \
 ```
 
 #### 返回数据类型
@@ -28,6 +26,6 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
 ```json
 {
     "code" : 200
-    "objectid":"testid"
+    "strategyid":"teststrategyid"
 }
 
