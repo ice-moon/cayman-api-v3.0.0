@@ -3,5 +3,17 @@
     "plugins": [
         "fontsettings"
     ],
-     "pluginsConfig": {}
+    "pluginsConfig": {},
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "yangfch3's github": "http://github.com/yangfch3"
+        }
+    },
 }
