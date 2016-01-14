@@ -1,4 +1,4 @@
-### 设置策略
+### 列举文件
 `/api/cayman/archive/listfile/list`
 
 #### 接口说明
