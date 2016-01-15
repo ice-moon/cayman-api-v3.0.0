@@ -1,4 +1,4 @@
-### 列举所有策略
+### 列举所有归档策略
 `/api/cayman/archive/strategy/list`
 
 #### 接口说明
