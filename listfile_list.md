@@ -14,8 +14,8 @@
 |isarchived|int|是否归档（归档为1，未归档为0）|
 |starttime|int64|开始时间|
 |endtime|int64|结束时间|
-|offset|int|列举起始点|
-|offend|int|列举终点|
+|page|int|列举第几页内容，默认为1|
+|perpage|int|每页列举内容条数，默认20|
 
 
 #### 使用示例
