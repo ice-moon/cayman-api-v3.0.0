@@ -1,4 +1,4 @@
-### 获取策略
+### 获取归档策略
 `/api/cayman/archive/strategy/get`
 
 #### 接口说明
