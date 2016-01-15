@@ -28,5 +28,4 @@
    * [手动归档文件](archive_manual.md)
    * [列举文件](listfile_list.md)
    * [手动回迁文件](restore_manual.md)
-   * [按策略回迁](restore_strategy.md)
 
