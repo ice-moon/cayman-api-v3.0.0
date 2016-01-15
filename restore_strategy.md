@@ -1,4 +1,4 @@
-### 按策略回迁
+### 设置回迁策略
 `/api/cayman/archive/restore/matchrule`
 
 #### 接口说明
