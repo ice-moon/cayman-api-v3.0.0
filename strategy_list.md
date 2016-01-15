@@ -10,6 +10,7 @@
 #### 请求参数
 |参数名|参数类型|参数说明|
 |--|--|--|
+|type|string|要列举什么类型的策略."archive" or "restore",默认为"all"
 |page|int|列举第几页内容，默认为1|
 |perpage|int|每页列举内容条数，默认20|
 
