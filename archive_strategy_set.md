@@ -12,15 +12,15 @@
 |--|--|--|
 |name|string|策略名|
 |desc|string|策略描述|
-|month|string|策略月|
-|week|string|策略周|
-|day|string|策略天|
-|hour|string|策略时|
-|minute|string|策略分|
-|groupby|string|策略分组|
-|device|string|策略归档设备|
-|matchrule|string|策略匹配规则|
-|ifremain|bool|是否保留源文件|
+|month|string|时间策略月|
+|week|string|时间策略周|
+|day|string|时间策略天|
+|hour|string|时间策略时|
+|minute|string|时间策略分|
+|groupby|string|归档文件分组，type字段为restore时，此字段无效|
+|device|string|策略归档设备，（默认tape）|
+|matchrule|string|策略匹配规则，为json格式|
+|ifremain|bool|是否保留源文件。如果type为restore，此字段无效|
 |level|int|归档优先级|
 |type|string|策略类型。"archive"、"restore"两种类型
 
