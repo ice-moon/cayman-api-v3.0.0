@@ -1,8 +1,8 @@
-### 设置归档策略
+### 设置归档/回迁策略
 `/api/cayman/archive/strategy/set`
 
 #### 接口说明
-设置归档策略
+设置归档/回迁策略
 
 #### HTTP请求类型
 `POST`
@@ -22,6 +22,7 @@
 |matchrule|string|策略匹配规则|
 |ifremain|bool|是否保留源文件|
 |level|int|归档优先级|
+|type|string|策略类型。"archive"、"restore"
 
 #### 使用示例
 ```sh
