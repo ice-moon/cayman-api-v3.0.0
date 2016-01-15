@@ -22,7 +22,7 @@
 |matchrule|string|策略匹配规则|
 |ifremain|bool|是否保留源文件|
 |level|int|归档优先级|
-|type|string|策略类型。"archive"、"restore"
+|type|string|策略类型。"archive"、"restore"两种类型
 
 #### 使用示例
 ```sh
