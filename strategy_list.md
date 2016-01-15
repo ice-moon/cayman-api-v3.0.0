@@ -2,7 +2,7 @@
 `/api/cayman/archive/strategy/list`
 
 #### 接口说明
-列举所有归档策略
+列举所有策略
 
 #### HTTP请求类型
 `POST`
