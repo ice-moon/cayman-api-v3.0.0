@@ -1,4 +1,4 @@
-### 归档策略设置
+### 设置归档策略
 `/api/cayman/archive/strategy/set`
 
 #### 接口说明
