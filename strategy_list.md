@@ -38,7 +38,8 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/strategy/list \
 				"cayman_archive_strategy_device":	"",
 				"cayman_archive_strategy_ifremain":	true,
 				"cayman_archive_strategy_level":	50,
-				"cayman_archive_strategy_status":	-1
+				"cayman_archive_strategy_status":	-1,
+				"cayman_archive_strategy_type":	"archive"
 			}]
 	}
 }
