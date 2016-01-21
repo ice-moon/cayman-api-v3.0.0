@@ -10,18 +10,11 @@
 #### 请求参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
-|username|string|yes|用户名|
-|bucket|string|yes|存储桶名|
-|object|string|yes|对象名|
-|key|string|yes|元数据键|
+||||||
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/metadata/get \
--F username=testuser \
--F bucket=testbucket \
--F object=testobject \
--F key=aaa
+curl -XPOST http://192.168.1.100/api/cayman/store/monitor/get
 ```
 
 #### 返回数据类型
@@ -32,7 +25,8 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/get \
 {
 	"code":	200,
 	"result":	{
-		"aaa":	"bbb"
+		"sizecount":	1024,
+		"objectcount": 512
 	}
 }
 ```
