@@ -2,7 +2,7 @@
 `/api/cayman/store/monitor/get`
 
 #### 接口说明
-获取object元数据
+获取空间使用统计
 
 #### HTTP请求类型
 `POST`
