@@ -2,6 +2,7 @@
 
 * [简介](README.md)
 * [监控](monitor.md)
+   * [使用统计](monitor_count.md)
 * [用户管理](user.md)
    * [创建用户](user_create.md)
 * [桶管理](bucket.md)
