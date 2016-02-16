@@ -11,7 +11,6 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
-|object|string|yes|对象名|
 |key|string|yes|元数据键|
 |value|string|yes|元数据值|
 
