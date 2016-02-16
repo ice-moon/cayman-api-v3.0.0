@@ -11,7 +11,7 @@
    * [获取元数据](metatada_get.md)
    * [删除元数据](metadata_del.md)
    * [列举所有元数据](metadata_list.md)
-* [监控](monitor.md)
+* [统计](stat.md)
    * [使用统计](monitor_count.md)
 * [配额](quota.md)
    * [设置用户配额](quota_user_set.md)
