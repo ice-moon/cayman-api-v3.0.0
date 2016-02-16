@@ -11,6 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
+|dir|string|yes|创建的文件目录名|
 |key|string|yes|元数据键|
 |value|string|yes|元数据值|
 
