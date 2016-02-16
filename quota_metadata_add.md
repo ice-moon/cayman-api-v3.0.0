@@ -15,11 +15,9 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/quota/add \
--F quotaname=videoquota \
--F matchlabel={"type":"video"} \
--F description=基于文件类型为视频的配额 \
--F quotamaxsize=512000000
+curl -XPOST http://192.168.1.100/api/cayman/store/quota/subuser/add \
+-F subuser=user1 \
+-F quotasize=512000000
 ```
 
 #### 返回数据类型
