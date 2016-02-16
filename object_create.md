@@ -12,7 +12,7 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |dir|string|yes|创建的文件目录名|
-|key|string|yes|元数据键|
+|name|string|yes|文件名|
 |value|string|yes|元数据值|
 
 #### 使用示例
