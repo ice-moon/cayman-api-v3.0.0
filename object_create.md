@@ -19,7 +19,7 @@
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/object create \
 -F bucket=testbucket \
--F dir=/directory1/ \
+-F dir=/directory1 \
 -F key=aaa \
 -F value=bbb
 ```
