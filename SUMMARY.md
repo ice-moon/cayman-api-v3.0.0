@@ -18,7 +18,7 @@
    * [获取用户配额](quota_user_get.md)
    * [设置桶配额](quota_bucket_set.md)
    * [获取桶配额](quota_bucket_get.md)
-   * [添加元数据配额](quota_metadata_add.md)
+   * [添加子用户配额](quota_subuser_add.md)
    * [获取元数据配额](quota_metadata_get.md)
    * [删除元数据配额](quota_metadata_del.md)
    * [修改元数据配额](quota_metadata_mod.md)
