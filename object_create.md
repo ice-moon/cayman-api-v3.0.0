@@ -2,7 +2,7 @@
 `/api/cayman/store/object/create`
 
 #### 接口说明
-创建
+创建一个空文件对象，返回对象ID
 
 #### HTTP请求类型
 `POST`
