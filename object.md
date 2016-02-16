@@ -6,6 +6,7 @@
 ![](文件上传流程.png)
 
 
+
 (1) 创建文件 --/api/cayman/store/object/create
 (2) 上传数据块 --/api/cayman/store/object/write
 注： 大于4M的文件重复 （2）的步骤，上传时指定 offset, len
