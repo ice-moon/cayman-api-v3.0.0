@@ -13,7 +13,7 @@
 |bucket|string|yes|存储桶名|
 |dir|string|yes|创建的文件目录名|
 |name|string|yes|文件名|
-|size|int|yes|最终要上传的文件的大小，默认为0。|
+|size|int|yes|元数据值|
 
 #### 使用示例
 ```sh
