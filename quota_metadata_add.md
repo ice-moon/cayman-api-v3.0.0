@@ -10,10 +10,8 @@
 #### 请求参数
 |参数名|类型|必选|说明|默认值|
 |--|--|--|--|--|
-|quotaname|string|yes|配额名||
-|matchlabel|string|yes|json格式kv键值对||
-|description|string|no|配额描述|空字符串|
-|quotamaxsize|int64|no|默认配额值|-1:无限制|
+|subuser|string|yes|子用户名||
+|quotasize|int64|no|默认配额值|0:无限制|
 
 #### 使用示例
 ```sh
