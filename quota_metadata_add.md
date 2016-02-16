@@ -1,5 +1,5 @@
 ### 添加元数据配额
-`/api/cayman/store/quota/add`
+`/api/cayman/store/quota/subuser/add`
 
 #### 接口说明
 添加元数据配额 
