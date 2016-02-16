@@ -12,7 +12,7 @@
    * [删除元数据](metadata_del.md)
    * [列举所有元数据](metadata_list.md)
 * [统计](stat.md)
-   * [使用统计](monitor_count.md)
+   * [全局使用统计](global_count.md)
 * [配额](quota.md)
    * [设置用户配额](quota_user_set.md)
    * [获取用户配额](quota_user_get.md)
