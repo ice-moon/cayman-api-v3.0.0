@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|默认值|
 |--|--|--|--|--|
 |subuser|string|yes|子用户名||
-|quotasize|int64|no|默认配额值|0:无限制|
+|quotasize|int64|no|配额值|0:无限制|
 
 #### 使用示例
 ```sh
