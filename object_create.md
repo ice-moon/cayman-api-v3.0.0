@@ -1,8 +1,8 @@
 ### 创建文件对象
-`/api/cayman/store/metadata/set`
+`/api/cayman/store/object/create`
 
 #### 接口说明
-设置object元数据
+创建
 
 #### HTTP请求类型
 `POST`
