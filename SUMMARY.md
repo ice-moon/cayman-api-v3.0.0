@@ -5,6 +5,7 @@
    * [创建用户](user_create.md)
 * [桶管理](bucket.md)
    * [创建桶](bucket_create.md)
+   * 删除桶
 * [对象管理](object.md)
    * [创建文件对象](object_create.md)
    * [上传文件数据块](object_write.md)
