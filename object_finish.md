@@ -16,8 +16,8 @@
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/object finish \
--F bucket=testbucket \
--F dir=/directory1 \
+-F bucket=bucket-z \
+-F objectid=dawei/a.txt
 -F name=a.txt \
 -F size=2022
 ```
