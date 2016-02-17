@@ -1,4 +1,4 @@
-### 判断文件对象是否存在
+### 截断文件对象
 `/api/cayman/store/object/exist`
 
 #### 接口说明
