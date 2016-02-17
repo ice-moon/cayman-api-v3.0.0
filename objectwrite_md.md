@@ -13,7 +13,7 @@
 |bucket|string|yes|对象所处桶名|
 |objectid|string|yes|对象ID|
 |offset|int64|yes|写入数据块的起始位置|
-|size|int|no|要上传文件的真实大小,单位byte。默认为0，即上传一个空文件|
+|len|int|yes|写入数据块大小|
 
 #### 使用示例
 ```sh
