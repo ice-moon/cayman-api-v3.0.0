@@ -1,5 +1,5 @@
 ### 列举用户所有桶
-`/api/cayman/store/bucket/remove`
+`/api/cayman/store/bucket/list`
 
 #### 接口说明
 删除一个桶。
