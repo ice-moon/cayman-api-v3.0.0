@@ -1,4 +1,4 @@
-### 列举用户所有桶
+### 列举桶内文件对象
 `/api/cayman/store/bucket/list`
 
 #### 接口说明
