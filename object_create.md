@@ -22,7 +22,8 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object create \
 -F bucket=bucket-z \
 -F dir=/directory1 \
 -F name=a.txt \
--F size=2022
+-F size=2022 \
+-F subuser=subuser1
 ```
 
 #### 返回数据类型
