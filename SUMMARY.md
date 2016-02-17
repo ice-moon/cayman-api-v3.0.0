@@ -26,7 +26,7 @@
    * [日期维度统计](stat_date.md)
    * [添加元数据统计策略](add_meta_stat_strategy.md)
    * 删除元数据统计策略
-   * 列举元数据统计策略
+   * [列举元数据统计策略](list_meta_stat_strategy.md)
    * 列举元数据统计
    * 获取元数据统计
 * [配额](quota.md)
