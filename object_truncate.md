@@ -12,6 +12,7 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
+|newsize|int64|yes|指定要截断文件后的大小|
 
 #### 使用示例
 ```sh
