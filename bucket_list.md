@@ -2,7 +2,7 @@
 `/api/cayman/store/bucket/list`
 
 #### 接口说明
-删除一个桶。
+删除请求有效授权用户的所有。
 
 #### HTTP请求类型
 `POST`
