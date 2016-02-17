@@ -1,4 +1,4 @@
-### 修改元数据配额
+### 修改子用户配额
 `/api/cayman/store/quota/subuser/modify`
 
 #### 接口说明
