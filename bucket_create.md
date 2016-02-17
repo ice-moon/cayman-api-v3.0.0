@@ -1,5 +1,5 @@
-### 创建文件对象
-`/api/cayman/store/object/create`
+### 创建一个桶
+`/api/cayman/store/bucket/create`
 
 #### 接口说明
 创建一个空文件对象，返回对象ID
