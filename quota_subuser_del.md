@@ -1,4 +1,4 @@
-### 删除元数据配额
+### 删除子用户配额
 `/api/cayman/store/quota/subuser/del`
 
 #### 接口说明
