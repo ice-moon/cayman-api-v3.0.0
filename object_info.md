@@ -2,7 +2,7 @@
 `/api/cayman/store/object/info`
 
 #### 接口说明
-查询文件对象基本的
+查询文件对象基本的信息
 
 #### HTTP请求类型
 `POST`
@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
-|dir|string|yes|创建的文件目录名|
+|objectid|string|yes|创建的文件目录名|
 |name|string|yes|文件名|
 |size|int|no|要上传文件的真实大小,单位byte。默认为0，即上传一个空文件|
 
