@@ -2,7 +2,7 @@
 `/api/cayman/store/object/remove`
 
 #### 接口说明
-通知cayman完成文件上传。
+删除文件对象及其索引、元数据等全部信息
 
 #### HTTP请求类型
 `POST`
