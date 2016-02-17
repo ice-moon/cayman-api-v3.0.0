@@ -2,7 +2,7 @@
 `/api/cayman/store/object/write`
 
 #### 接口说明
-创建一个空文件对象，返回对象ID
+针对已创建文件上传数据块，
 
 #### HTTP请求类型
 `POST`
