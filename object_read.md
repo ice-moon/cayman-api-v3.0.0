@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
-|objectid|string|yes|对象ID|
+|objectid|string|yes|要读取的对象ID|
 |offset|int64|yes|要读取的文件偏移量|
 |len|int|yes|要读取连续多长的数据，单位byte|
 
