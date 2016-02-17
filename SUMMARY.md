@@ -25,6 +25,7 @@
    * [全局使用统计](stat_global_count.md)
    * [日期维度统计](stat_date.md)
    * 添加元数据标签统计策略
+   * 删除元数据标签统计策略
 * [配额](quota.md)
    * [设置用户配额](quota_user_set.md)
    * [获取用户配额](quota_user_get.md)
