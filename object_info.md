@@ -1,5 +1,5 @@
 ### 查询文件对象基本信息
-`/api/cayman/store/object/create`
+`/api/cayman/store/object/info`
 
 #### 接口说明
 创建一个空文件对象，返回对象ID
