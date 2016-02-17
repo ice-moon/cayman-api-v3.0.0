@@ -1,4 +1,4 @@
-### 查询文件对象基本信息
+### 判断文件对象是否
 `/api/cayman/store/object/info`
 
 #### 接口说明
