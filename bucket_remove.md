@@ -2,7 +2,7 @@
 `/api/cayman/store/bucket/remove`
 
 #### 接口说明
-删除一个
+删除一个桶。
 
 #### HTTP请求类型
 `POST`
