@@ -1,4 +1,4 @@
-### 获取元数据配额
+### 获取子用户配额
 `/api/cayman/store/quota/subuser/get`
 
 #### 接口说明
