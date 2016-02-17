@@ -2,7 +2,7 @@
 `/api/cayman/store/bucket/create`
 
 #### 接口说明
-创建一个桶，隶属于授权用户。
+创建一个桶，隶属于请求的有效授权用户。
 
 #### HTTP请求类型
 `POST`
