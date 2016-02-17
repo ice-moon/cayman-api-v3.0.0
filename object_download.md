@@ -23,6 +23,6 @@ curl -XGET http://192.168.1.100/api/cayman/store/object/download？debug=true&bu
 
 #### 返回结果
 ```json
-直接返回内容的Buffer
+直接返回整个
 ```
 
