@@ -1,4 +1,4 @@
-### 列举元数据配额
+### 列举子用户配额
 `/api/cayman/store/quota/subuser/list`
 
 #### 接口说明
