@@ -2,7 +2,7 @@
 `/api/cayman/store/object/download`
 
 #### 接口说明
-读取已存在文件数据。
+下载整个文件对象
 
 #### HTTP请求类型
 `POST`
