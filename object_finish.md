@@ -1,5 +1,5 @@
-### 完成文件
-`/api/cayman/store/object/`
+### 完成文件上传
+`/api/cayman/store/object/finish`
 
 #### 接口说明
 创建一个空文件对象，返回对象ID
