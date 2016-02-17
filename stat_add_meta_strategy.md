@@ -14,7 +14,8 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/add
+curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/add\
+-F key=type
 ```
 
 #### 返回数据类型
