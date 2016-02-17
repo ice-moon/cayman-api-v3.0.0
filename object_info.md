@@ -17,9 +17,7 @@
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/object/info \
 -F bucket=bucket-z \
--F dir=/directory1 \
--F name=a.txt \
--F size=2022
+-F objectid=directory1/a.txt \
 ```
 
 #### 返回数据类型
