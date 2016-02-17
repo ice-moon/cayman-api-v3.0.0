@@ -2,7 +2,7 @@
 `/api/cayman/store/object/write`
 
 #### 接口说明
-针对已创建文件上传数据块，
+针对已创建文件上传数据块，大小不超过4M。
 
 #### HTTP请求类型
 `POST`
