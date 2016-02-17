@@ -7,8 +7,6 @@
    * [创建桶](bucket_create.md)
 * [对象管理](object.md)
    * [创建文件对象](object_create.md)
-   * [上传文件数据块](object_write.md)
-       * 完成文件上传
    * 上传文件数据块
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
