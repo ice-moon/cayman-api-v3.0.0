@@ -16,7 +16,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/object/exist \
+curl -XPOST http://192.168.1.100/api/cayman/store/object/truncate \
 -F bucket=bucket-z \
 -F objectid=directory1/a.txt \
 ```
