@@ -32,7 +32,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object create \
 {
 	"code":	200,
 	"result":	{
-		"cayman_metadata_field_objectid":	"directory1/a.txt",
+		"cayman_metadata_field_objectid":"directory1/a.txt",
 		"cayman_metadata_field_username":	"anonymous",
 		"cayman_metadata_field_bucket":	"bucket-z",
 		"cayman_metadata_field_name":	"a.txt",
