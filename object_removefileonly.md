@@ -2,7 +2,7 @@
 `/api/cayman/store/object/removeFileOnly`
 
 #### 接口说明
-删除文件对象及其索引、元数据等全部信息
+只删除文件对象物理文件，保留其索引、元数据等全部信息
 
 #### HTTP请求类型
 `POST`
