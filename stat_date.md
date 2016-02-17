@@ -1,6 +1,6 @@
 ### 日期维度统计
 
-`/api/cayman/store/stat/date/get`
+`/api/cayman/store/stat/meta/date/get`
 
 #### 接口说明
 获取日期使用统计
@@ -15,7 +15,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/stat/date/get\
+curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/get\
 -F getdate=2016-01-01
 ```
 
