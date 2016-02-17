@@ -36,7 +36,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object create \
 		"cayman_metadata_field_username":	"anonymous",
 		"cayman_metadata_field_bucket":	"bucket-z",
 		"cayman_metadata_field_name":	"a.txt",
-		"cayman_metadata_field_dir":	"/dawei",
+		"cayman_metadata_field_dir":	"/directory1",
 		"cayman_metadata_field_lastmodifytime":	"1455673028",
 		"cayman_metadata_field_createtime":	"1455673028",
 		"cayman_metadata_field_type":	4,
