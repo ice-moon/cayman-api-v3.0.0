@@ -15,11 +15,7 @@
 
 #### 使用示例
 ```sh
-curl -XGET http://192.168.1.100/api/cayman/store/object/download？debugtrue \
--F bucket=bucket-z \
--F objectid=directory1/a.txt \
--F offset=0 \
--F len=10
+curl -XGET http://192.168.1.100/api/cayman/store/object/download？debug=true&bucket=bucket-z&objectid=directory1/a.txt
 ```
 
 #### 返回数据类型
