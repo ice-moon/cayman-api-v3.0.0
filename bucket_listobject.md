@@ -2,7 +2,7 @@
 `/api/cayman/store/bucket/listobject`
 
 #### 接口说明
-列举请求有效授权用户的所有桶。
+列举指定桶内文件对象
 
 #### HTTP请求类型
 `POST`
