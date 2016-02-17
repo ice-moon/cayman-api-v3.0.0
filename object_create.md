@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
-|dir|string|yes|要创建的对象ID，ex：dir1/a.txt|
+|objectid|string|yes|要创建的对象ID，ex：dir1/a.txt|
 |subuser|string|no|文件所属子用户标识，默认为空。|
 |size|int|no|要上传文件的真实大小,单位byte。默认为0，即上传一个空文件|
 
