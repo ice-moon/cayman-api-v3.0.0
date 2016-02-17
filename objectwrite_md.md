@@ -1,5 +1,5 @@
 ### 上传数据块
-`/api/cayman/store/object/create`
+`/api/cayman/store/object/write`
 
 #### 接口说明
 创建一个空文件对象，返回对象ID
