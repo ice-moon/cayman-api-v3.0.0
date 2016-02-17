@@ -10,11 +10,11 @@
 #### 请求参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
-|bucket|string|yes|要删除桶名|
+|bucket|string|yes|要删除的桶名|
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/bucket/create \
+curl -XPOST http://192.168.1.100/api/cayman/store/bucket/remove \
 -F bucket=bucket-z \
 ```
 
