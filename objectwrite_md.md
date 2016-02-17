@@ -16,7 +16,7 @@
 |len|int|yes|写入数据块大小|
 |PostData|binary|yes|具体上传的文件数据块，在HTTP 请求body中以multipart/form-data 格式上传，详解见以下说明|
 
-
+#### 请求数据流部分
 
 ---
 POST /api/cluster/storage/file/write HTTP/1.1
@@ -44,15 +44,45 @@ Content-Transfer-Encoding: binary
 filecontent
 
 --wodmd5zTpvSlfvcSNu_awTp7nzXgWIZin3D--
----
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/object create \
--F bucket=testbucket \
--F dir=/directory1 \
--F name=a.txt \
--F size=2022
+	Javascript 上传文件示例（代码片段）： 
+					 
+	var formData = new FormData();
+        var func = (opts.file.mozSlice ? 'mozSlice' : (opts.file.webkitSlice ? 'webkitSlice' : 'slice'));
+
+		// 文件数据块
+        formData.append("file", opts.file[func](startSize, endSize));
+        
+		// 其他参数		
+		formData.append("fileid", opts.fileid);
+        formData.append("offset", startSize);
+        formData.append("length", endSize - startSize);
+        formData.append("filesize", size);
+        var xhr = new XMLHttpRequest();
+        xhr.open("POST", opts.target);
+        xhr.setRequestHeader('Authorization', oauth);
+        xhr.setRequestHeader('ACCESS-TOKEN', token);
+        xhr.onreadystatechange = function(){
+            if (xhr.readyState === 4){
+                if(canceled) return;
+                try{
+                    var result = JSON.parse(xhr.responseText);
+                    if(result.code === 200){
+                        done = true;
+                        owner.progress();
+                        sendData();
+                    }else{
+                        done = false;
+                        owner.onerror(result.msg);
+                    }
+                }catch(e){
+                    owner.onerror("unknow error "+e);
+                }
+            }
+        }
+        xhr.send(formData);
 ```
 
 #### 返回数据类型
