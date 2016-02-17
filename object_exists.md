@@ -1,5 +1,5 @@
-### 判断文件对象是否
-`/api/cayman/store/object/info`
+### 判断文件对象是否存在
+`/api/cayman/store/object/exist`
 
 #### 接口说明
 查询文件对象基本的信息
