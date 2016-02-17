@@ -13,7 +13,7 @@
 |bucket|string|yes|存储桶名|
 |dir|string|yes|创建的文件目录名|
 |offset|int64|yes|要读取的文件偏移量|
-|size|int|no|要上传文件的真实大小,单位byte。默认为0，即上传一个空文件|
+|len|int|yes|要读取连续多长的数据，单位byte|
 
 #### 使用示例
 ```sh
