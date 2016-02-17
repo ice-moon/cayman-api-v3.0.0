@@ -5,7 +5,7 @@
    * [创建用户](user_create.md)
 * [桶管理](bucket.md)
    * [创建桶](bucket_create.md)
-   * 删除桶
+   * [删除桶](bucket_remove.md)
    * [列举用户所有桶](bucket_list.md)
    * [列举桶内文件对象](bucket_listobject.md)
 * [对象管理](object.md)
