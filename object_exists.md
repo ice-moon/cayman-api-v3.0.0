@@ -2,7 +2,7 @@
 `/api/cayman/store/object/exist`
 
 #### 接口说明
-判断cayman中是否已存在此文件
+判断cayman中是否已存在此文件对象
 
 #### HTTP请求类型
 `POST`
@@ -15,7 +15,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/object/info \
+curl -XPOST http://192.168.1.100/api/cayman/store/object/exist \
 -F bucket=bucket-z \
 -F objectid=directory1/a.txt \
 ```
