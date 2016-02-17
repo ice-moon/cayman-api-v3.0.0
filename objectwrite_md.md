@@ -19,8 +19,32 @@
 
 
 ---
+POST /api/cluster/storage/file/write HTTP/1.1
+ACCESS-TOKEN: M2VlODJmMmItMzI0NC00ZDc2LWFhMDYtNjQ1Yzc5ODc1NjVl
+Authorization: DATATOM DATATOM4UAcOR3uLx3bx49kIDdAhaRCAr:RTlGNjU3N0EyOTM2RkMyRkQxQTAzQkUyN0FBQUJEM0VDMjRBQ0Y0MA==
+Connection: Close
+Transfer-Encoding: chunked
+Content-Type: multipart/form-data; boundary=wodmd5zTpvSlfvcSNu_awTp7nzXgWIZin3D
+Host: 192.168.1.100
+User-Agent: Apache-HttpClient/4.3.4 (java 1.5)
+Accept-Encoding: gzip,deflate
 
+--wodmd5zTpvSlfvcSNu_awTp7nzXgWIZin3D
 
+Content-Disposition: form-data; name="fileid"
+Content-Type: text/plain; charset=ISO-8859-1
+Content-Transfer-Encoding: 8bit
+
+--wodmd5zTpvSlfvcSNu_awTp7nzXgWIZin3D
+
+Content-Disposition: form-data; name="PostData"; filename="multipart/form-data"
+Content-Type: PostData
+Content-Transfer-Encoding: binary
+
+filecontent
+
+--wodmd5zTpvSlfvcSNu_awTp7nzXgWIZin3D--
+---
 
 #### 使用示例
 ```sh
