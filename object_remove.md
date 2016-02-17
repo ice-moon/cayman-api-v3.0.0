@@ -1,4 +1,4 @@
-### 完成文件上传
+### 删除文件
 `/api/cayman/store/object/finish`
 
 #### 接口说明
