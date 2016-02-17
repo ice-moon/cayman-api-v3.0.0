@@ -2,7 +2,7 @@
 `/api/cayman/store/object/info`
 
 #### 接口说明
-创建一个空文件对象，返回对象ID
+查询文件对象基本的
 
 #### HTTP请求类型
 `POST`
