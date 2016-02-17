@@ -23,7 +23,14 @@ curl -XPOST http://192.168.1.100/api/cayman/store/bucket/list
 #### 返回结果
 ```json
 {
-	"code":	200
+	"total":	2,
+	"result":	[{
+			"bucketname":	"bucket-w",
+			"owner":	"anonymous"
+		}, {
+			"bucketname":	"bucket-z",
+			"owner":	"anonymous"
+		}]
 }
 ```
 
