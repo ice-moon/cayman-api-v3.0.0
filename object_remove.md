@@ -1,5 +1,5 @@
-### 删除文件
-`/api/cayman/store/object/finish`
+### 删除文件对象
+`/api/cayman/store/object/remove`
 
 #### 接口说明
 通知cayman完成文件上传。
