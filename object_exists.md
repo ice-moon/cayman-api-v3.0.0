@@ -2,7 +2,7 @@
 `/api/cayman/store/object/exist`
 
 #### 接口说明
-查询文件对象基本的信息
+判断cayman中是否已存在此对象文件
 
 #### HTTP请求类型
 `POST`
