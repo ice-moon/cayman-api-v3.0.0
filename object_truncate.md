@@ -2,7 +2,7 @@
 `/api/cayman/store/object/truncate`
 
 #### 接口说明
-判断cayman中是否已存在此文件对象
+截断文件对象到指定大小
 
 #### HTTP请求类型
 `POST`
