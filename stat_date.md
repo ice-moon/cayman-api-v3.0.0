@@ -3,7 +3,7 @@
 `/api/cayman/store/stat/meta/date/get`
 
 #### 接口说明
-获取日期使用统计
+获取日期空间使用统计
 
 #### HTTP请求类型
 `POST`
@@ -27,8 +27,8 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/get\
 {
 	"code":	200,
 	"result":	{
-		"size":	1024,
-		"objectnums": 512
+		"inc_size":	1024,
+		"inc_objnums": 512
 	}
 }
 ```
