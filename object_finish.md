@@ -2,7 +2,7 @@
 `/api/cayman/store/object/finish`
 
 #### 接口说明
-创建一个空文件对象，返回对象ID
+通知cayman完成文件上传。
 
 #### HTTP请求类型
 `POST`
