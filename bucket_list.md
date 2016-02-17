@@ -1,4 +1,4 @@
-### 删除一个桶
+### 列举用户所有桶
 `/api/cayman/store/bucket/remove`
 
 #### 接口说明
