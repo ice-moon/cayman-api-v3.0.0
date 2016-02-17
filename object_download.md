@@ -1,5 +1,5 @@
-### 读取文件对象数据
-`/api/cayman/store/object/read`
+### 下载整个文件对象
+`/api/cayman/store/object/download`
 
 #### 接口说明
 读取已存在文件数据。
