@@ -13,6 +13,7 @@
    * [下载整个文件对象](object_download.md)
    * [删除文件对象](object_remove.md)
    * [只删除文件对象的物理文件](object_removefileonly.md)
+   * 查询文件对象基本信息
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
