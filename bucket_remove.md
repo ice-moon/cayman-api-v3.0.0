@@ -1,4 +1,4 @@
-### 创建一个桶
+### 删除一个桶
 `/api/cayman/store/bucket/create`
 
 #### 接口说明
