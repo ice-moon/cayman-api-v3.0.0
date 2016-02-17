@@ -50,5 +50,6 @@ curl -XPOST http://192.168.1.100/api/cayman/store/bucket/listobject
 			"cayman_metadata_field_type":	0,
 			"cayman_metadata_field_subuser":	""
 		}]
+}
 ```
 
