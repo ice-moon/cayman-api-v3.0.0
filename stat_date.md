@@ -26,7 +26,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/date/get
 {
 	"code":	200,
 	"result":	{
-		"sizeincrease":	1024,
+		"size":	1024,
 		"objectnums": 512
 	}
 }
