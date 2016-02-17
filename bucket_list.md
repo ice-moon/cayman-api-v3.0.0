@@ -14,7 +14,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/bucket/remove \
+curl -XPOST http://192.168.1.100/api/cayman/store/bucket/list \
 -F bucket=bucket-z \
 ```
 
