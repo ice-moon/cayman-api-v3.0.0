@@ -11,6 +11,7 @@
    * [完成文件上传](object_finish.md)
    * [读取文件对象数据](object_read.md)
    * [下载整个文件对象](object_download.md)
+   * 删除文件对象
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
