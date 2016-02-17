@@ -1,8 +1,8 @@
-### 添加元数据配额
+### 添加子用户配额
 `/api/cayman/store/quota/subuser/add`
 
 #### 接口说明
-添加元数据配额 
+添加子用户配额 
 
 #### HTTP请求类型
 `POST`
