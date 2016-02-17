@@ -9,6 +9,7 @@
    * [创建文件对象](object_create.md)
    * [上传文件数据块](object_write.md)
        * 完成文件上传
+   * 上传文件数据块
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
