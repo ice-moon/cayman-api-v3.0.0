@@ -7,7 +7,6 @@
    * [创建桶](bucket_create.md)
 * [对象管理](object.md)
    * [创建文件对象](object_create.md)
-   * [上传数据块](objectwrite_md.md)
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
@@ -31,6 +30,6 @@
    * [列举所有策略](strategy_list.md)
    * [删除策略](strategy_del.md)
    * [手动归档文件](archive_manual.md)
-   * [列举文件](listfile_list.md)
+   * [列举文件](archive_listfile.md)
    * [手动回迁文件](restore_manual.md)
 
