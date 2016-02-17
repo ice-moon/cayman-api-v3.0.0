@@ -23,7 +23,7 @@
    * [列举所有元数据](metadata_list.md)
 * [统计](stat.md)
    * [全局使用统计](stat_global_count.md)
-   * 日期维度统计
+   * [日期维度统计](stat_date.md)
 * [配额](quota.md)
    * [设置用户配额](quota_user_set.md)
    * [获取用户配额](quota_user_get.md)
