@@ -16,6 +16,12 @@
 |len|int|yes|写入数据块大小|
 |PostData|binary|yes|具体上传的文件数据块，在HTTP 请求body中以multipart/form-data 格式上传，详解见以下说明|
 
+
+
+---
+
+
+
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/object create \
