@@ -1,5 +1,5 @@
 ### 截断文件对象
-`/api/cayman/store/object/exist`
+`/api/cayman/store/object/truncate`
 
 #### 接口说明
 判断cayman中是否已存在此文件对象
