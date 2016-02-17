@@ -1,2 +1,33 @@
-# 日期维度统计
+### 日期维度统计
 
+`/api/cayman/store/stat/date/get`
+
+#### 接口说明
+获取日期使用统计
+
+#### HTTP请求类型
+`POST`
+
+#### 请求参数
+|参数名|类型|必选|说明|
+|--|--|--|--|
+|getdate|string|true|要获取统计的日期，格式:2016-01-01|
+
+#### 使用示例
+```sh
+curl -XPOST http://192.168.1.100/api/cayman/store/stat/date/get
+```
+
+#### 返回数据类型
+`JSON`
+
+#### 返回结果
+```json
+{
+	"code":	200,
+	"result":	{
+		"sizeincrease":	1024,
+		"objectnums": 512
+	}
+}
+```
