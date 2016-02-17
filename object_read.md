@@ -17,7 +17,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/object create \
+curl -XPOST http://192.168.1.100/api/cayman/store/object read \
 -F bucket=bucket-z \
 -F dir=/directory1 \
 -F name=a.txt \
