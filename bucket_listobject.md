@@ -1,5 +1,5 @@
 ### 列举桶内文件对象
-`/api/cayman/store/bucket/list`
+`/api/cayman/store/bucket/listobject`
 
 #### 接口说明
 列举请求有效授权用户的所有桶。
