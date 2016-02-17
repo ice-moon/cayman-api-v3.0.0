@@ -10,7 +10,6 @@
 #### 请求参数
 |参数名|参数类型|参数说明|
 |--|--|--|
-|user|string|用户名|
 |bucket|string|桶名|
 |objid|string|文件id|
 
