@@ -93,15 +93,7 @@ filecontent
 {
 	"code":	200,
 	"result":	{
-		"cayman_metadata_field_objectid":	"dawei/a.txt",
-		"cayman_metadata_field_username":	"anonymous",
-		"cayman_metadata_field_bucket":	"bucket-z",
-		"cayman_metadata_field_name":	"a.txt",
-		"cayman_metadata_field_dir":	"/dawei",
-		"cayman_metadata_field_lastmodifytime":	"1455673028",
-		"cayman_metadata_field_createtime":	"1455673028",
-		"cayman_metadata_field_type":	4,
-		"cayman_metadata_field_type":	"0"
+		"md5":"3a0febb9c40b0f6b9094b919a30525b4"
 	}
 }
 ```
