@@ -2,7 +2,7 @@
 `/api/cayman/store/object/read`
 
 #### 接口说明
-读取已存在文件数据
+读取已存在文件数据。
 
 #### HTTP请求类型
 `POST`
