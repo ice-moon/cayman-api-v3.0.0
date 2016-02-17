@@ -15,7 +15,7 @@
 
 #### 使用示例
 ```sh
-curl -XGET http://192.168.1.100/api/cayman/store/object/read \
+curl -XGET http://192.168.1.100/api/cayman/store/object/download \
 -F bucket=bucket-z \
 -F objectid=directory1/a.txt \
 -F offset=0 \
