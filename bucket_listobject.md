@@ -17,7 +17,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/bucket/list 
+curl -XPOST http://192.168.1.100/api/cayman/store/bucket/listobject
 ```
 
 #### 返回数据类型
