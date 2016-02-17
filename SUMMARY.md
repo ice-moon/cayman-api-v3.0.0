@@ -28,7 +28,7 @@
    * [删除元数据统计策略](del_meta_stat_strategy.md)
    * [列举元数据统计策略](list_meta_stat_strategy.md)
    * [列举元数据统计](list_meta_stat.md)
-   * 获取元数据统计
+   * [获取元数据统计](get_meta_stat.md)
 * [配额](quota.md)
    * [设置用户配额](quota_user_set.md)
    * [获取用户配额](quota_user_get.md)
