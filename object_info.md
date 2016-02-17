@@ -36,7 +36,8 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/info \
 		"cayman_metadata_field_lastmodifytime":	"1455676898",
 		"cayman_metadata_field_createtime":	"1455675740",
 		"cayman_metadata_field_type":	4,
-		"cayman_metadata_field_type":	"31"
+		"cayman_metadata_field_type":	"31",
+		"cayman_metadata_field_subuser": "subuser1"
 	}
 }
 ```
