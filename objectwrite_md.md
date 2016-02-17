@@ -1,4 +1,4 @@
-### 创建文件对象
+### 
 `/api/cayman/store/object/create`
 
 #### 接口说明
