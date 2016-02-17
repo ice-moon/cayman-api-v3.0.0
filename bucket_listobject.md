@@ -13,7 +13,7 @@
 |bucket|string|yes|要列举哪个桶内的文件对象|
 |dirname|string|no|要列举桶内哪个目录下文件，默认"/",即根目录下文件对象|
 |page|int|no|列举第几页文件对象，默认为1|
-|perpage|int|no|列举多少个文件对象，默认为20.|
+|perpage|int|no|列举多少个文件对象，默认为20|
 
 #### 使用示例
 ```sh
