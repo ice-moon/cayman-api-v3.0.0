@@ -14,6 +14,7 @@
 |objectid|string|yes|对象ID|
 |offset|int64|yes|写入数据块的起始位置|
 |len|int|yes|写入数据块大小|
+|PostData|binary|yes|具体上传的文件数据块，在HTTP 请求body中以multipart/form-data 格式上传，详解见以下说明|
 
 #### 使用示例
 ```sh
