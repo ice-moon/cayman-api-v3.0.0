@@ -14,7 +14,7 @@
 |getdate|string|true|要获取统计的日期，格式:2016-01-01|
 
 #### 使用示例
-```sh
+```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/get\
 -F getdate=2016-01-01
 ```
