@@ -15,7 +15,7 @@
 |key|string|true|基于元数据key进行统计|
 
 #### 使用示例
-```sh
+```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
 -F key=filetype \
 -F value=video
