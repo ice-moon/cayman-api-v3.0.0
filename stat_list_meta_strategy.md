@@ -25,7 +25,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/list
 {
 	"code":	200,
 	"result":[
-	    {"key":"type"},
+	    {"key":"filetype"},
 	    {"key":"department"}
 	]
 }
