@@ -15,7 +15,7 @@
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
--F key=type
+-F key=filetype
 ```
 
 #### 返回数据类型
@@ -26,8 +26,14 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
 {
 	"code":	200,
 	"result":[
-	    {"key":"type"},
-	    {"key":"department"}
+	    {
+	        "value":"video",
+	        "size":512000
+	    },
+	    {
+	        "value":"audio",
+	        "size":512000
+	    }
 	]
 }
 ```
