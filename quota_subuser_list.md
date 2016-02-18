@@ -28,11 +28,13 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/subuser/list \
 {
   "total": 99,
   "source": [
+    {
     "subuser": "test1", 
     "createtime": 1452654019, 
     "quotasize": 512000000, 
     "spaceused": 512, 
     "objectnums": 0
+    }
   ]
 }
 ```
