@@ -14,7 +14,6 @@
 |nums|int|no|列举个数|0:全部|
 |sort|bool|no|是否按空间使用量倒序排序|false|
 
-
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
