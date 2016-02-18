@@ -25,6 +25,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/global/get
 {
 	"code":	200,
 	"result":	{
+		"spacetotal":	1024,
 		"spaceused":	1024,
 		"objectnums": 512
 	}
