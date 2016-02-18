@@ -15,7 +15,7 @@
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/del\
--F key=type
+-F key=filetype
 ```
 
 #### 返回数据类型
