@@ -24,10 +24,13 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/subuser/get \
 #### 返回结果
 ```json
 {
-    "subuser": "test1", 
-    "createtime": 1452654019, 
-    "quotasize": 512000000, 
-    "spaceused": 0, 
-    "objectnums": 0
+	"code":	200,
+	"result":{
+        "subuser": "test1", 
+        "createtime": 1452654019, 
+        "quotasize": 512000000, 
+        "spaceused": 0, 
+        "objectnums": 0
+    }
 }
 ```
