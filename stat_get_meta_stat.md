@@ -29,7 +29,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
 {
 	"code":	200,
 	"result":{
-	        "size":512000
-	    }
+	    "size":512000
+	 }
 }
 ```
