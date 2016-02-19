@@ -1,4 +1,4 @@
-### 删除文件对象
+### 修改文件对象
 `/api/cayman/store/object/subuser/modify`
 
 #### 接口说明
