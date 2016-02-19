@@ -1,5 +1,5 @@
 ### 删除文件对象
-`/api/cayman/store/object/remove`
+`/api/cayman/store/object/subuser/modify`
 
 #### 接口说明
 删除文件对象及其索引、元数据等全部信息
