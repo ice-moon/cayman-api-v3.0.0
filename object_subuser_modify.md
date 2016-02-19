@@ -1,4 +1,4 @@
-### 修改文件对象
+### 修改文件对象子用户
 `/api/cayman/store/object/subuser/modify`
 
 #### 接口说明
@@ -12,6 +12,7 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
+|newsubuser|string|yes|新添加的子用户|
 
 #### 使用示例
 ```sh
