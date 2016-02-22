@@ -10,7 +10,7 @@
 #### 请求参数
 |参数名|类型|必选|说明|默认|
 |--|--|--|--|--|
-|key|string|true|基于元数据key进行统计|
+|key|string|true|基于元数据key进行统计||
 |nums|int|no|列举个数|0:全部|
 |sort|bool|no|是否按空间使用量倒序排序|false|
 
