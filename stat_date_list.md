@@ -27,7 +27,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/get\
 {
 	"code":	200,
 	"result":	{
-	    "total":10,
+	    "total":2,
 	    "source":[
     	    {
     	        "date":"2016-01-02"
