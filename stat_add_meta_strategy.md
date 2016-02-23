@@ -11,11 +11,13 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |key|string|true|基于元数据key进行统计|
+|description|string|false|统计策略描述|
 
 #### 使用示例
 ```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/add\
--F key=filetype
+-F key=filetype\
+-F description=各文件类型分类统计
 ```
 
 #### 返回数据类型
@@ -24,6 +26,12 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/add\
 #### 返回结果
 ```json
 {
-	"code":	200
+	"code":	200,
+	"result":	{
+		"id":	"8b74b9ce-f9d5-49de-a630-723a30ef2389",
+		"key":	"filetype",
+		"createtime":	1456192187,
+		"description":	"各文件类型分类统计"
+	}
 }
 ```
