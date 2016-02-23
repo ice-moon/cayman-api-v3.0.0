@@ -10,12 +10,12 @@
 #### 请求参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
-|key|string|true|基于元数据key进行统计|
+|id|string|true|策略id|
 
 #### 使用示例
 ```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/del\
--F key=filetype
+-F id=8b74b9ce-f9d5-49de-a630-723a30ef2389
 ```
 
 #### 返回数据类型
