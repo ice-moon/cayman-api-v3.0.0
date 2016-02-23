@@ -27,6 +27,7 @@
 * [统计](stat.md)
    * [全局使用统计](stat_global_count.md)
    * [获取日期维度统计](stat_date_get.md)
+   * [列举日期维度统计](stat_date_list.md)
    * [添加元数据统计策略](stat_add_meta_strategy.md)
    * [删除元数据统计策略](stat_del_meta_strategy.md)
    * [列举元数据统计策略](stat_list_meta_strategy.md)
