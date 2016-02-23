@@ -30,10 +30,10 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
 {
 	"code":	200,
 	"result":{
-	    "total":99,
 	    "key":"filetype",
 		"createtime":	1456192187,
-		"description":	"各文件类型分类统计"
+		"description":	"各文件类型分类统计",
+	    "total":99,
     	"source":[
 	    {
 	        "value":"video",
