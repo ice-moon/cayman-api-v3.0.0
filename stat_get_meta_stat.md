@@ -1,5 +1,5 @@
 ### 获取元数据统计
-`/api/cayman/store/stat/meta/list`
+`/api/cayman/store/stat/meta/get`
 
 #### 接口说明
 获取元数据统计
