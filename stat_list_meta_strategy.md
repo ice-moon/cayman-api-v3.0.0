@@ -25,8 +25,12 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/list
 {
 	"code":	200,
 	"result":[
-	    {"key":"filetype"},
-	    {"key":"department"}
+        {
+			"id":	"7b910c4c-3fe5-4bb9-812f-82a4860fb352",
+			"key":	"filetype",
+			"createtime":	1456192309,
+			"description":	"各文件类型分类统计"
+		}
 	]
 }
 ```
