@@ -27,8 +27,19 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/get\
 {
 	"code":	200,
 	"result":	{
-		"inc_size":	1024,
-		"inc_objnums": 512
+	    "total":10,
+	    "source":[
+    	    {
+    	        "date":"2016-01-02"
+        		"inc_size":	1024,
+        		"inc_objnums": 512
+    		},
+    	    {
+    	        "date":"2016-01-01"
+        		"inc_size":	1024,
+        		"inc_objnums": 512
+    		}
+	    ]
 	}
 }
 ```
