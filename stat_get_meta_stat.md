@@ -34,10 +34,12 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/list\
     	"source":[
 	    {
 	        "value":"video",
+	        "objnums":5120
 	        "size":5120000
 	    },
 	    {
 	        "value":"audio",
+	        "objnums":512
 	        "size":512000
 	    }
     	]
