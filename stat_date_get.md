@@ -1,4 +1,4 @@
-### 日期维度统计
+### 获取日期维度统计
 
 `/api/cayman/store/stat/meta/date/get`
 
