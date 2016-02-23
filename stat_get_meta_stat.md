@@ -4,7 +4,7 @@
 `/api/cayman/store/stat/meta/list`
 
 #### 接口说明
-列举元数据统计
+获取元数据统计
 
 #### HTTP请求类型
 `POST`
@@ -12,7 +12,7 @@
 #### 请求参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
-|key|string|true|基于元数据key进行统计|
+|id|string|true|策略id|
 
 #### 使用示例
 ```
