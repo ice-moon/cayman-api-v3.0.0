@@ -1,4 +1,4 @@
-### 添加元数据统计策略
+### 添加元数据统计事件
 `/api/cayman/store/stat/meta/strategy/add`
 
 #### 接口说明
