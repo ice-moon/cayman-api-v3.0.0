@@ -14,7 +14,6 @@
    * [读取文件对象数据](object_read.md)
    * [下载整个文件对象](object_download.md)
    * [删除文件对象](object_remove.md)
-   * [只删除文件对象的物理文件](object_removefileonly.md)
    * [查询文件对象基本信息](object_info.md)
    * [判断文件对象是否存在](object_exists.md)
    * [截断文件对象](object_truncate.md)
