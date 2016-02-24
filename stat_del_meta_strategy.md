@@ -1,4 +1,4 @@
-### 删除元数据统计策略
+### 删除元数据统计事件
 `/api/cayman/store/stat/meta/strategy/del`
 
 #### 接口说明
