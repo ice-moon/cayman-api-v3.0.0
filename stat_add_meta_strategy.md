@@ -2,7 +2,7 @@
 `/api/cayman/store/stat/meta/strategy/add`
 
 #### 接口说明
-添加元数据统计策略
+添加元数据统计事件
 
 #### HTTP请求类型
 `POST`
@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |key|string|true|基于元数据key进行统计|
-|description|string|false|统计策略描述|
+|description|string|false|统计事件描述|
 
 #### 使用示例
 ```
