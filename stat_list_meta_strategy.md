@@ -2,7 +2,7 @@
 `/api/cayman/store/stat/meta/strategy/list`
 
 #### 接口说明
-列举元数据统计策略
+列举元数据统计事件
 
 #### HTTP请求类型
 `POST`
