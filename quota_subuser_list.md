@@ -12,14 +12,14 @@
 |--|--|--|--|
 |start|int|no|从第几条开始|0:从第一个开始|
 |nums|int|no|列举个数|10|
-|sort|bool|no|是否按空间使用量倒序排序|false|
+|sort|int|no|按spaceused排序，0:不排序；1:正序；2:倒序|0|
 
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/quota/subuser/list \
 -F start=0 \
 -F nums=1 \
--F sort=true
+-F sort=2
 ```
 
 #### 返回数据类型
