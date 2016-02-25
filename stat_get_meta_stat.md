@@ -13,7 +13,7 @@
 |id|string|true|统计事件id||
 |start|int|no|从第几条开始|0:从第一个开始|
 |nums|int|no|列举个数|10|
-|sort|bool|no|是否按空间使用量倒序排序|false|
+|sort|int|no|0:不排序；1:正序；2:倒序|0|
 
 #### 使用示例
 ```
@@ -21,7 +21,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/get\
 -F id=7b910c4c-3fe5-4bb9-812f-82a4860fb352\
 -F start=0 \
 -F nums=1 \
--F sort=true
+-F sort=2
 ```
 
 #### 返回数据类型
