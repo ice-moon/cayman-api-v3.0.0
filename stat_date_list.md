@@ -18,6 +18,7 @@
 #### 使用示例
 ```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/list\
+-F start=7
 -F nums=2
 ```
 
