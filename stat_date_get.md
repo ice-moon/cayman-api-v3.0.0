@@ -16,7 +16,7 @@
 #### 使用示例
 ```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/get\
--F getdate=2016-01-01
+-F getdate=20160101
 ```
 
 #### 返回数据类型
