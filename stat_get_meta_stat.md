@@ -11,6 +11,7 @@
 |参数名|类型|必选|说明|默认|
 |--|--|--|--|--|
 |id|string|true|统计事件id||
+|start|int|no|从第几条开始|0:从第一个开始|
 |nums|int|no|列举个数|0:全部|
 |sort|bool|no|是否按空间使用量倒序排序|false|
 
