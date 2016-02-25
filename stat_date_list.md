@@ -30,12 +30,12 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/list\
 	"code":	200,
 	"result":[
 	    {
-	        "date":"2016-01-02"
+	        "date":"20160102"
     		"inc_size":	1024,
     		"inc_objnums": 512
 		},
 	    {
-	        "date":"2016-01-01"
+	        "date":"20160101"
     		"inc_size":	1024,
     		"inc_objnums": 512
 		}
