@@ -13,7 +13,7 @@
 |id|string|true|统计事件id||
 |start|int|no|从第几条开始|0:从第一个开始|
 |nums|int|no|列举个数|10|
-|sort|int|no|0:不排序；1:正序；2:倒序|0|
+|sort|int|no|按结果size排序，0:不排序；1:正序；2:倒序|0|
 
 #### 使用示例
 ```
