@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
-|objectid|string|yes|对象ID|
+|objectids|string|yes|对象ID|
 |callback_ip|string|no|回调ip|
 |callback_port|string|no|回调端口|
 |callback_uri|string|no|回调请求URI|
@@ -37,7 +37,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
 	"code":	200，
 }
 ```
-#### 回调请求参数
+#### 回调请求参数格式
 ```json
 {
 	"code":	200，
