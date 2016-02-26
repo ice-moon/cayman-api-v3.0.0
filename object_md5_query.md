@@ -1,5 +1,5 @@
 ### 查询指定文件的MD5值
-`/api/cayman/store/object/md5/`
+`/api/cayman/store/object/md5/query`
 
 #### 接口说明
 同步计算文件md5值，同步返回结果。注：此接口不适用于大于100M的文件，文件过大建议使用异步计算接口！
