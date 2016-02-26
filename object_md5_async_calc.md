@@ -1,5 +1,5 @@
 ### 异步计算文件MD5值
-`/api/cayman/store/object/md5/calc/sync`
+`/api/cayman/store/object/md5/calc/async`
 
 #### 接口说明
 异步计算文件md5值，计算后结果可根据查询接口单独查询文件md5值。或通过本接口回调参数进行结果回调。此接口使用所有文件，无大小限制。回调http访问post类型。
