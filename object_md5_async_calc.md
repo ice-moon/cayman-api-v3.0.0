@@ -18,7 +18,7 @@
 #### 回调接收参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
-|result|string|yes|计算结果json|
+|result|string|yes|计算结果json字符串|
 
 #### 使用示例
 ```sh
@@ -37,7 +37,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
 	"code":	200，
 }
 ```
-#### 回调请求格式
+#### 回调请求参数
 ```json
 {
 	"code":	200，
