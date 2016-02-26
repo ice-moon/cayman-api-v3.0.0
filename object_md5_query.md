@@ -12,7 +12,6 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
-|newsubuser|string|yes|新添加的子用户|
 
 #### 使用示例
 ```sh
