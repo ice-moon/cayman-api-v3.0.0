@@ -13,7 +13,7 @@
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
 |callback_ip|string|no|回调ip|
-|objectid|string|yes|对象ID|
+|callback_port|string|no|回调端口|
 |objectid|string|yes|对象ID|
 #### 回调参数
 |参数名|类型|必选|说明|
