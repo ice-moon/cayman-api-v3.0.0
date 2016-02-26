@@ -28,7 +28,10 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
 #### 返回结果
 ```json
 {
-	"code":	200
+	"code":	200，
+	"result":{
+	    "md5":""
+	}
 }
 ```
 
