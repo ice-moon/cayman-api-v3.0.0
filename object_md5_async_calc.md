@@ -15,6 +15,7 @@
 |callback_ip|string|no|回调ip|
 |callback_port|string|no|回调端口|
 |callback_uri|string|no|回调请求URI|
+|callback_uri|string|no|回调请求URI|
 #### 回调参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
