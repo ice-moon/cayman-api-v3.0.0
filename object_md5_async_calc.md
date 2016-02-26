@@ -12,7 +12,10 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
-#### 参数
+|objectid|string|yes|对象ID|
+|objectid|string|yes|对象ID|
+|objectid|string|yes|对象ID|
+#### 回调参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |newsubuser|string|yes|新添加的子用户|
