@@ -43,7 +43,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
 	"username":	"testuser",
 	"bucket-z":	"bucket-z",
 	"md5":{
-	    "objectid"
+	    "objectid":"director1"
 	    "md5":"4048733e5169de433046c96dc63a9860"
 	}
 }
