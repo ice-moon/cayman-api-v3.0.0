@@ -22,7 +22,7 @@
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
+curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/async \
 -F bucket=bucket-z \
 -F objectids=directory1/a.txt,directory2/b.txt   
 
