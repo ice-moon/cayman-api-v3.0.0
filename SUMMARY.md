@@ -18,7 +18,7 @@
    * [判断文件对象是否存在](object_exists.md)
    * [截断文件对象](object_truncate.md)
    * [修改文件对象子用户](object_subuser_modify.md)
-   * 同步计算文件MD5值
+   * [同步计算文件MD5值](object_md5_synccalc.md)
    * 异步计算文件MD5值
    * 查询指定文件MD5值
 * [元数据](metadata.md)
