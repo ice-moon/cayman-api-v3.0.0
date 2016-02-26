@@ -1,4 +1,4 @@
-### 同步计算文件MD5值
+### 查询指定文件的MD5值
 `/api/cayman/store/object/md5/calc/sync`
 
 #### 接口说明
