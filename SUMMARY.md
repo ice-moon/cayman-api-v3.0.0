@@ -20,6 +20,7 @@
    * [修改文件对象子用户](object_subuser_modify.md)
    * 同步计算文件MD5值
    * 异步计算文件MD5值
+   * 查询指定文件MD5值
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
