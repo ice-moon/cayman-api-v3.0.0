@@ -12,6 +12,9 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
+#### 请求参数
+|参数名|类型|必选|说明|
+|--|--|--|--|
 |newsubuser|string|yes|新添加的子用户|
 
 #### 使用示例
