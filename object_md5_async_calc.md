@@ -11,7 +11,7 @@
 |参数名|类型|必选|说明|
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
-|objectids|string|yes|对象ID|
+|objectids|string|yes|对象ID。可传多个，中间用逗号隔开。|
 |callback_ip|string|no|回调ip|
 |callback_port|string|no|回调端口|
 |callback_uri|string|no|回调请求URI|
