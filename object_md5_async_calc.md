@@ -49,7 +49,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
     	},
     	{
     	    "objectid":"director2/b.txt"
-    	    "md5":"4048733e5169de433046c96dc63a9860"
+    	    "md5":"4f8f40d4b3333c12c90174d8c2dac9fc"
     	}
 	]
 }
