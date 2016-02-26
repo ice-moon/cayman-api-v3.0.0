@@ -40,6 +40,9 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/md5/calc/sync \
 #### 回调请求参数格式
 ```json
 {
-	"code":	200，
+	"username":	200，
+	"result":{
+	    "md5":"4048733e5169de433046c96dc63a9860"
+	}
 }
 ```
