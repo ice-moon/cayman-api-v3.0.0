@@ -28,8 +28,8 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/getbykeyvalue\
 {
 	"code":	200,
 	"result":{
-	        "objnums":5120
-	        "size":5120000
+        "objnums":5120
+        "size":5120000
     }
 }
 ```
