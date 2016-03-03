@@ -35,7 +35,7 @@
    * [列举元数据统计事件](stat_list_meta_strategy.md)
    * [获取元数据统计](stat_get_meta_stat.md)
    * [获取元数据实时key统计](stat_meta_getbykey.md)
-   * 获取元数据实时keyvalue统计
+   * [获取元数据实时keyvalue统计](stat_meta_getbykeyvalue.md)
 * [配额](quota.md)
    * [设置用户配额](quota_user_set.md)
    * [获取用户配额](quota_user_get.md)
