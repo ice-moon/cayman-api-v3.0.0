@@ -16,7 +16,7 @@
 
 #### 使用示例
 ```
-curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/get\
+curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/getbykey\
 -F id=7b910c4c-3fe5-4bb9-812f-82a4860fb352\
 -F sort=2 \
 -F start=0 \
