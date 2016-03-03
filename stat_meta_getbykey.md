@@ -17,9 +17,8 @@
 #### 使用示例
 ```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/getbykey\
--F id=7b910c4c-3fe5-4bb9-812f-82a4860fb352\
+-F key=filetype\
 -F sort=2 \
--F start=0 \
 -F nums=2
 ```
 
@@ -31,10 +30,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/getbykey\
 {
 	"code":	200,
 	"result":{
-	    "total":99,
 	    "key":"filetype",
-		"createtime":	1456192187,
-		"description":	"各文件类型分类统计",
     	"source":[
 	    {
 	        "value":"video",
