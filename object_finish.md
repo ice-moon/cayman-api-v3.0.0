@@ -14,7 +14,7 @@
 |objectid|string|yes|对象ID|
 
 #### 使用示例
-```sh
+```
 curl -XPOST http://192.168.1.100/api/cayman/store/object/finish \
 -F bucket=bucket-z \
 -F objectid=directory1/a.txt
