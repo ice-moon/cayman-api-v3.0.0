@@ -46,7 +46,7 @@ filecontent
 --wodmd5zTpvSlfvcSNu_awTp7nzXgWIZin3D--
 
 #### 使用示例
-```sh
+```js
 	Javascript 上传文件示例（代码片段）： 
 					 
 	var formData = new FormData();
