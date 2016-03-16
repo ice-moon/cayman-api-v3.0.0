@@ -32,6 +32,8 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/restorebymanual \
 ```json
 {
     "code" : 200
+    "callbackcustom":"test"
+    "type":"vedio,audio"
     "result":[{
          "objectname":"test"
          "bucket":"bucket-z"
