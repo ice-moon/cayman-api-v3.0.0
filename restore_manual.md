@@ -18,6 +18,11 @@
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/archive/restorebymanual \
 -F fileinfos=[{"objectname":"test","bucket":"bucket-z"},{"objectname":"test1","bucket":bucket-z}] \
+-F callbackip=192.168.1.1 \
+-F callbackport=21000 \
+-F callbackurl=/cayman/test/callback \
+-F callbackkey=type \
+-F callbackcustom=test \
 ```
 
 #### 返回数据类型
