@@ -8,7 +8,6 @@
 |groupname|string|分组名|
 |fileinfos|json|文件信息|
 |AKgroup|string|AK归档组|
-|deldaytime|int|延迟删除时间|
 
 
 
@@ -19,12 +18,11 @@
 ```json
 {
     "code" : 200
-    “result”:{
+    "result":{
           "taskid":"1"
           "strategyid":"test"
           "groupname":"vedio"
           "AKgroup":"group1"
-          "deldaytime":10
           "fileinfos":[{
                  "objectid":"test1"
                  "bucket":"bucket-z"
