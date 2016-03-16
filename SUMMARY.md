@@ -57,5 +57,5 @@
    * [设置归档回调](setArchiveCallBack.md)
    * [归档回调](callbackarchive.md)
    * [完成文件删除回调](delfilecallback.md)
-   * 回迁回调
+   * [回迁回调](restorecallback.md)
 
