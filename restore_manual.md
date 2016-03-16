@@ -10,15 +10,14 @@
 #### 请求参数
 |参数名|参数类型|参数说明|
 |--|--|--|
-|objectid|string|文件id|
-|bucket|string|桶命名|
+|fileinfos|string|文件信息|
+
 
 
 #### 使用示例
 ```sh
-curl -XPOST http://192.168.1.100/api/cayman/archive/restore/objectid \
--F bucket=testbucket \
--F objid=testobjid \
+curl -XPOST http://192.168.1.100/api/cayman/archive/restorebymanual \
+-F fileinfos=[{"objectname":"test","bucket":"bucket-z"},{"objectname":"test1","bucket":bucket-z}] \
 ```
 
 #### 返回数据类型
