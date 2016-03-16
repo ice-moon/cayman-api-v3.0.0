@@ -23,10 +23,20 @@
     "code" : 200
     “result”:{
           "taskid":"1"
-          ""
-          "fileinfos"
-    
-    
+          "strategyid":"test"
+          "groupname":"vedio"
+          "AKgroup":"group1"
+          "deldaytime":10
+          "successcount":200
+          "failurecount":0
+          "fileinfos":[{
+                 "objectid":"test1"
+                 "bucket":"bucket-z"
+           },
+           {
+                 "objectid":"test1"
+                 "bucket":"bucket-z"
+           }]
     }
 }
 ```
