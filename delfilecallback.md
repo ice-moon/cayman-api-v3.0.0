@@ -28,10 +28,12 @@
           "fileinfos":[{
                  "objectid":"test1"
                  "bucket":"bucket-z"
+                 "delstatus":"已删除"
            },
            {
                  "objectid":"test1"
                  "bucket":"bucket-z"
+                 "delstatus":"已删除"
            }]
     }
 }
