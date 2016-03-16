@@ -8,7 +8,7 @@
 |groupname|string|分组名|
 |fileinfos|json|文件信息|
 |AKgroup|string|AK归档组|
-|deldaytime|json|文件信息|
+|deldaytime|int|延迟删除时间|
 |successcount|int|成功文件数|
 |failurecount|int|失败文件数|
 
