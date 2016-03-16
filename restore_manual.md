@@ -1,5 +1,5 @@
 ### 手动回迁文件
-`/api/cayman/archive/restore/objectid`
+`/api/cayman/archive/restorebymanual`
 
 #### 接口说明
 手动回迁文件
