@@ -56,5 +56,5 @@
    * [手动回迁文件](restore_manual.md)
    * [设置归档回调](setArchiveCallBack.md)
    * [归档回调](callbackarchive.md)
-   * 删除文件回调
+   * [删除文件回调](delfilecallback.md)
 
