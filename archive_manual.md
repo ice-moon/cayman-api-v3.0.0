@@ -27,6 +27,5 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
 ```json
 {
     "code" : 200
-    "result":
 }
 ```
