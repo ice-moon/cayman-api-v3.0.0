@@ -11,6 +11,11 @@
 |参数名|参数类型|参数说明|
 |--|--|--|
 |fileinfos|string|文件信息|
+|callbackip|string|回调ip|
+|callbackport|int|回调端口|
+|callbackurl|string|回调url|
+|callbackkey|string|元数据key值|
+|callbackcustom|string|custom|
 
 
 
