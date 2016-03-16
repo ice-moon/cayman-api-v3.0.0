@@ -27,5 +27,15 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
 ```json
 {
     "code" : 200
+    "result":[{
+         "objectname":"test"
+         "bucket":"bucket-z"
+         "strategyname":"test"
+    },
+    {
+         "objectname":"test1"
+         "bucket":"bucket-z"
+         "strategyname":"test1"
+    }]
 }
 ```
