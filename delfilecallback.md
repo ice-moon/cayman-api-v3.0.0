@@ -8,7 +8,7 @@
 |groupname|string|分组名|
 |fileinfos|json|文件信息|
 |AKgroup|string|AK归档组|
-|deldaytime|int|文件信息|
+|deldaytime|int|延迟删除时间|
 
 
 
@@ -25,8 +25,6 @@
           "groupname":"vedio"
           "AKgroup":"group1"
           "deldaytime":10
-          "successcount":200
-          "failurecount":0
           "fileinfos":[{
                  "objectid":"test1"
                  "bucket":"bucket-z"
