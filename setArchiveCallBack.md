@@ -13,6 +13,9 @@
 |callbackip|string|回调ip|
 |callbackport|int|回调端口|
 |callbackurl|string|回调url|
+|callbackkey|string|元数据key值|
+|callbackcustom|string|custom|
+
 
 
 
@@ -22,6 +25,8 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
 -F callbackip=192.168.1.1 \
 -F callbackport=21000 \
 -F callbackurl=/cayman/test/callback \
+-F callbackkey=type \
+-F callbackcustom=test \
 ```
 
 #### 返回数据类型
@@ -31,6 +36,10 @@ curl -XPOST http://192.168.1.100/api/cayman/archive/archivebymanual \
 ```json
 {
     "code" : 200
+    "result":{
+          "callbackcustom":"test"
+          "type":"vedio,audio"
+    }
 }
 ```
 
