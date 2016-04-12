@@ -14,7 +14,7 @@
 |userid|string|yes|登录用户|
 |objectid|string|yes|要读取的对象ID|
 |offset|int64|yes|要读取的文件偏移量|
-|len|int|yes|要读取连续多长的数据，单位byte|
+|length|int|yes|要读取连续多长的数据，单位byte|
 
 #### 使用示例
 ```sh
