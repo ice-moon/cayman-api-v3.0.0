@@ -19,6 +19,7 @@
 curl -XPOST http://192.168.1.100/api/cayman/store/object/info \
 -F bucket=bucket-z \
 -F objectid=directory1/a.txt \
+-F objectid=directory1/a.txt \
 ```
 
 #### 返回数据类型
