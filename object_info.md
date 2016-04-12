@@ -31,7 +31,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/info \
 	"code":	200,
 	"result":	{
 		"object":"directory1/a.txt",
-		"bucket":	"anonymous",
+		"bucket":	bucket-z,
 		"cayman_metadata_field_bucket":	"bucket-z",
 		"cayman_metadata_field_name":	"a.txt",
 		"cayman_metadata_field_dir":	"/directory1",
