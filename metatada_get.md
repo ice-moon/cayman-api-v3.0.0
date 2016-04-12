@@ -10,6 +10,7 @@
 #### 请求参数
 |参数名|类型|必选|说明|
 |--|--|--|--|
+|username|string|yes|用户名|
 |bucket|string|yes|存储桶名|
 |object|string|yes|对象名|
 |key|string|yes|元数据键|
