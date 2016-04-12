@@ -20,6 +20,7 @@
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/object/read \
 -F bucket=bucket-z \
+-F bucket=bucket-z \
 -F objectid=directory1/a.txt \
 -F offset=0 \
 -F len=10
