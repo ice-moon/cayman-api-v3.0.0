@@ -32,7 +32,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/object/info \
 	"result":	{
 		"object":"directory1/a.txt",
 		"bucket":	bucket-z,
-		"cayman_metadata_field_bucket":	"bucket-z",
+		"size":	"bucket-z",
 		"cayman_metadata_field_name":	"a.txt",
 		"cayman_metadata_field_dir":	"/directory1",
 		"cayman_metadata_field_lastmodifytime":	1455673028,
