@@ -12,7 +12,7 @@
 |--|--|--|--|
 |bucket|string|yes|存储桶名|
 |objectid|string|yes|对象ID|
-|userid|string|yes|对象ID|
+|userid|string|yes|登录用户名|
 
 #### 使用示例
 ```sh
