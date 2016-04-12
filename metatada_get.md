@@ -32,7 +32,7 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/get \
 {
 	"code":	200,
 	"result":	{
-		"value":	"bbb"
+		"aaa":	"bbb"
 	}
 }
 ```
