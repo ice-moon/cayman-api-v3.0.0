@@ -36,3 +36,9 @@ curl -XPOST http://192.168.1.100/api/cayman/store/metadata/get \
 	}
 }
 ```
+#####其他返回说明
+|code|说明|
+|--|--|
+|400|参数无效|
+|417|修改subuser失败|
+|417|获取对象元数据失败|
