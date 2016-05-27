@@ -33,4 +33,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/subuser/add \
 |code|说明|
 |--|--|
 |400|参数无效|
-|417|获取统计信息失败|
+|417|添加子用户配额失败|
