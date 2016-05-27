@@ -12,16 +12,16 @@
 |--|--|--|--|
 |username|string|yes|用户名|
 |bucket|string|yes|存储桶名|
-|object|string|yes|对象名|
-|key|string|yes|元数据键|
+|objects|string|yes|对象名|
+|keys|string|yes|元数据键|
 
 #### 使用示例
 ```sh
 curl -XPOST http://192.168.1.100/api/cayman/store/metadata/del \
 -F username=testuser \
 -F bucket=testbucket \
--F object=testobject \
--F key=aaa
+-F objects=testobject,bucket-z \
+-F key=aaa,bbb
 ```
 
 #### 返回数据类型
