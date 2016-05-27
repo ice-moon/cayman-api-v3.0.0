@@ -39,4 +39,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/list
 |--|--|
 |400|参数无效|
 |409|此事件元数据已存在|
-|417|添加元数据统计事件失败|
+|417|列举元数据统计事件失败|
