@@ -20,7 +20,7 @@
 curl -XPOST http://192.168.1.100/api/cayman/store/metadata/setmulti \
 -F username=testuser \
 -F bucket=testbucket \
--F object=testobject,bucket-z,bucket-y \
+-F objects=testobject,bucket-z,bucket-y \
 -F kv=[{"key":"test","value":"test"},{"key":"test1","value":"test1"}]
 ```
 
