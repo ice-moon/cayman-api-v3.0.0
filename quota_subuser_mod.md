@@ -33,4 +33,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/quota/subuser/modify \
 |code|说明|
 |--|--|
 |400|参数无效|
-|417|添加子用户配额失败|
+|417|修改子用户配额失败|
