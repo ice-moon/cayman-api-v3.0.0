@@ -54,5 +54,5 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/get/multi\
 |code|说明|
 |--|--|
 |400|参数无效|
-|417|获取统计信息失败|
+|417|查询统计信息失败|
 
