@@ -26,7 +26,7 @@
    * [获取元数据](metatada_get.md)
    * [删除元数据](metadata_del.md)
    * [列举所有元数据](metadata_list.md)
-   * 设置多个文件多个元数据
+   * [设置多个文件多个元数据](setmetamulti.md)
 * [统计](stat.md)
    * [全局使用统计](stat_global_count.md)
    * [获取日期维度统计](stat_date_get.md)
