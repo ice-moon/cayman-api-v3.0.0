@@ -37,5 +37,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/getbykeyvalue\
 |code|说明|
 |--|--|
 |400|参数无效|
-|409|此事件元数据已存在|
 |417|获取统计信息失败|
