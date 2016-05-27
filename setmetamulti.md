@@ -20,9 +20,8 @@
 curl -XPOST http://192.168.1.100/api/cayman/store/metadata/set \
 -F username=testuser \
 -F bucket=testbucket \
--F object=testobject \
--F key=aaa \
--F value=bbb
+-F object=testobject,bucket-z,bucket-y \
+-F kv=[{"key":"test","value":"test"},{"key":"test1","value":"test1"}]
 ```
 
 #### 返回数据类型
