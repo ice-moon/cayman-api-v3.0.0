@@ -50,4 +50,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/getbykey\
 |code|说明|
 |--|--|
 |400|参数无效|
-|417|获取查询失败|
+|417|获取统计失败|
