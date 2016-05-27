@@ -39,5 +39,5 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/add\
 |code|说明|
 |--|--|
 |400|参数无效|
-|409|此元数据无权限修改|
+|409|此策略元数据已存在|
 |417|获取元数据失败|
