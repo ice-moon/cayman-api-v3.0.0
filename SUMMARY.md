@@ -28,7 +28,7 @@
    * [列举所有元数据](metadata_list.md)
    * [设置多个文件多个元数据](setmetamulti.md)
    * [删除多个文件多个元数据](delmetamulti.md)
-   * 删除所有匹配到值的值
+   * [删除所有匹配到值的值](delbyvalue.md)
 * [统计](stat.md)
    * [全局使用统计](stat_global_count.md)
    * [获取日期维度统计](stat_date_get.md)
