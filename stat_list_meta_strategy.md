@@ -37,5 +37,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/strategy/list
 #####其他返回说明
 |code|说明|
 |--|--|
-|400|参数无效|
 |417|列举元数据统计事件失败|
