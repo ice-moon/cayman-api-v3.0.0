@@ -20,7 +20,7 @@
 |value|查询的value值|yes|可填多组|
 #### 使用示例
 ```
-curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/get\
+curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/get/multi\
 -F id={"name":[{"relation":"include","value":"abcd"}],"type":[{"relation":"must","value":"video"}],"uuid":[{"relation":"must","value":"test"},{"relation":"should","value":"test1"}]}
 ```
 其中name/type/uuid为key值，其中key值中的json数组可为多个，之间为and关系，参照uuid key值写法。
