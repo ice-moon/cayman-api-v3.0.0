@@ -47,5 +47,4 @@ curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/date/list\
 |code|说明|
 |--|--|
 |400|参数无效|
-|409|此元数据无权限修改|
 |417|列举日起统计失败|
