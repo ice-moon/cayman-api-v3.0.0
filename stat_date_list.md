@@ -1,6 +1,6 @@
 ### 列举日期维度统计
 
-`/api/cayman/store/stat/meta/date/list`
+`/api/cayman/store/stat/meta/date/list` 
 
 #### 接口说明
 获取日期空间使用统计
