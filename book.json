@@ -32,7 +32,7 @@
             "right": 62,
             "top": 36
         },
-        "pageNumbers": true,
+        "pageNumbers": false,
         "paperSize": "a4"
     }
 }
