@@ -1,1 +1,38 @@
-{}
+{
+    "title": "Cayman非结构化数据管理引擎",
+    "author": "上海德拓信息技术有限公司",
+    "description": "_",
+    "extension": "test",
+    "isbn": "123",
+    "language": "zh_CN",
+    "generator": "http://www.datatom.com",
+    "plugins": [
+        "fontsettings"
+    ],
+    "pluginsConfig": {},
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "上海德拓信息技术有限公司": "http://www.datatom.com"
+        }
+    },
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    }
+}
