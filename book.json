@@ -2,7 +2,7 @@
     "title": "Cayman非结构化数据管理引擎",
     "author": "上海德拓信息技术有限公司",
     "description": "_",
-    "extension": test,
+    "extension": "test",
     "isbn": 123,
     "language": "zh_CN",
     "generator": "http://www.datatom.com",
