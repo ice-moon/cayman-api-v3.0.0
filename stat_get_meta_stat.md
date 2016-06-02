@@ -10,7 +10,7 @@
 #### 请求参数
 |参数名|类型|必选|说明|默认|
 |--|--|--|--|--|
-|id|string|true|统计事件id||
+|key|string|true|统计事件key||
 |sort|int|no|按size排序，0:不排序；1:正序；2:倒序|0|
 |start|int|no|从第几条开始列举|0:从第一条开始|
 |nums|int|no|列举个数|10|
@@ -18,7 +18,7 @@
 #### 使用示例
 ```
 curl -XPOST http://192.168.1.100/api/cayman/store/stat/meta/meta/get\
--F id=7b910c4c-3fe5-4bb9-812f-82a4860fb352\
+-F key=test\
 -F sort=2 \
 -F start=0 \
 -F nums=2
