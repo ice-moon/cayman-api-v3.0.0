@@ -21,7 +21,7 @@
    * [同步计算文件MD5值](object_md5_synccalc.md)
    * [异步计算文件MD5值](object_md5_async_calc.md)
    * [查询指定文件MD5值](object_md5_query.md)
-   * 修改多个对象的子用户
+   * [修改多个对象的子用户](modifysubusermulti.md)
 * [元数据](metadata.md)
    * [设置元数据](metadata_set.md)
    * [获取元数据](metatada_get.md)
