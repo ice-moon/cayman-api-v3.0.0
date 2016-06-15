@@ -1,4 +1,4 @@
-### 删除元数据
+### 删除所有匹配到值的值
 `/api/cayman/store/metadata/delbyvalue`
 
 #### 接口说明
