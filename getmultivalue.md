@@ -1,4 +1,4 @@
-### 获取元数据统计
+### 根据值获取统计信息
 `/api/cayman/store/stat/meta/get/multi`
 
 #### 接口说明
