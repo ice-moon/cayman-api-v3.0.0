@@ -1,4 +1,4 @@
-### 删除元数据
+### 删除多个文件多个元数据
 `/api/cayman/store/metadata/delmulti`
 
 #### 接口说明
