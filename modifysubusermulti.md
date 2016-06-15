@@ -1,4 +1,4 @@
-### 修改文件对象子用户
+### 修改多个文件对象子用户
 `/api/cayman/store/object/subuser/modifymulti`
 
 #### 接口说明
