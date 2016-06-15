@@ -1,4 +1,4 @@
-### 设置元数据
+### 设置多个object多个元数据
 `/api/cayman/store/metadata/setmulti`
 
 #### 接口说明
